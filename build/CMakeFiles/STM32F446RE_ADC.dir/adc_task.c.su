@@ -1,0 +1,2 @@
+adc_task.c:12:6:vADCTask	24	static
+adc_task.c:45:6:HAL_ADC_ConvCpltCallback	40	static

@@ -1,0 +1,34 @@
+CMakeFiles/STM32F446RE_ADC.dir/syscalls.c.obj: \
+ /Volumes/users_duffymazan/duffymazan/CascadeProjects/STM32F446RE_ADC/syscalls.c \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/include/errno.h \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/include/sys/errno.h \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/include/sys/reent.h \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/include/_ansi.h \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/include/newlib.h \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/include/_newlib_version.h \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/include/sys/config.h \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/include/machine/ieeefp.h \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/include/sys/features.h \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/lib/gcc/arm-none-eabi/5.4.1/include/stddef.h \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/include/sys/_types.h \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/include/machine/_types.h \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/include/machine/_default_types.h \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/include/sys/lock.h \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/include/sys/stat.h \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/include/time.h \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/include/_ansi.h \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/include/sys/cdefs.h \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/include/machine/time.h \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/include/sys/types.h \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/include/sys/_stdint.h \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/include/machine/endian.h \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/include/machine/_endian.h \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/include/sys/select.h \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/include/sys/_sigset.h \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/include/sys/_timeval.h \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/include/sys/timespec.h \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/include/sys/_timespec.h \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/include/machine/types.h \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/include/sys/_locale.h \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/include/sys/times.h \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/include/sys/unistd.h

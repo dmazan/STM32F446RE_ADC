@@ -1,0 +1,33 @@
+CMakeFiles/STM32F446RE_ADC.dir/libs/FreeRTOS/stream_buffer.c.obj: \
+ /Volumes/users_duffymazan/duffymazan/CascadeProjects/STM32F446RE_ADC/libs/FreeRTOS/stream_buffer.c \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/lib/gcc/arm-none-eabi/5.4.1/include/stdint.h \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/include/stdint.h \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/include/machine/_default_types.h \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/include/sys/features.h \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/include/_newlib_version.h \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/include/sys/_intsup.h \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/include/sys/_stdint.h \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/include/string.h \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/include/_ansi.h \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/include/newlib.h \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/include/sys/config.h \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/include/machine/ieeefp.h \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/include/sys/reent.h \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/include/_ansi.h \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/lib/gcc/arm-none-eabi/5.4.1/include/stddef.h \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/include/sys/_types.h \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/include/machine/_types.h \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/include/sys/lock.h \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/include/sys/cdefs.h \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/include/sys/_locale.h \
+ /opt/homebrew/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/include/sys/string.h \
+ /Volumes/users_duffymazan/duffymazan/CascadeProjects/STM32F446RE_ADC/libs/FreeRTOS/include/FreeRTOS.h \
+ /Volumes/users_duffymazan/duffymazan/CascadeProjects/STM32F446RE_ADC/FreeRTOSConfig.h \
+ /Volumes/users_duffymazan/duffymazan/CascadeProjects/STM32F446RE_ADC/libs/FreeRTOS/include/projdefs.h \
+ /Volumes/users_duffymazan/duffymazan/CascadeProjects/STM32F446RE_ADC/libs/FreeRTOS/include/portable.h \
+ /Volumes/users_duffymazan/duffymazan/CascadeProjects/STM32F446RE_ADC/libs/FreeRTOS/include/deprecated_definitions.h \
+ /Volumes/users_duffymazan/duffymazan/CascadeProjects/STM32F446RE_ADC/libs/FreeRTOS/portable/GCC/ARM_CM4F/portmacro.h \
+ /Volumes/users_duffymazan/duffymazan/CascadeProjects/STM32F446RE_ADC/libs/FreeRTOS/include/mpu_wrappers.h \
+ /Volumes/users_duffymazan/duffymazan/CascadeProjects/STM32F446RE_ADC/libs/FreeRTOS/include/task.h \
+ /Volumes/users_duffymazan/duffymazan/CascadeProjects/STM32F446RE_ADC/libs/FreeRTOS/include/list.h \
+ /Volumes/users_duffymazan/duffymazan/CascadeProjects/STM32F446RE_ADC/libs/FreeRTOS/include/stream_buffer.h

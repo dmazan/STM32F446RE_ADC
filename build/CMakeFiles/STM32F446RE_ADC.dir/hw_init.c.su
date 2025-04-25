@@ -1,0 +1,8 @@
+hw_init.c:24:6:HW_Init	8	static
+hw_init.c:43:6:SystemClock_Config	88	static
+hw_init.c:80:13:ADC_Init	80	static
+hw_init.c:142:13:DMA_Init	16	static
+hw_init.c:198:13:UART_Init	40	static
+hw_init.c:231:13:I2C_Init	16	static
+hw_init.c:265:13:TIMER_Init	24	static
+hw_init.c:302:13:DAC_Init	48	static
