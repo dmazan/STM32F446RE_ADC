@@ -165,16 +165,16 @@ static void DMA_Init(void)
     HAL_NVIC_EnableIRQ(DMA2_Stream0_IRQn);
 
     /* DMA2 Stream3 Configuration for ADC2 */
-    //hdma_adc2.Instance = DMA2_Stream1;
-    //hdma_adc2.Init.Channel = DMA_CHANNEL_1;
-    //hdma_adc2.Init.Direction = DMA_PERIPH_TO_MEMORY;
-    //hdma_adc2.Init.PeriphInc = DMA_PINC_DISABLE;
-    //hdma_adc2.Init.MemInc = DMA_MINC_ENABLE;
-    //hdma_adc2.Init.PeriphDataAlignment = DMA_PDATAALIGN_HALFWORD;
-    //hdma_adc2.Init.MemDataAlignment = DMA_MDATAALIGN_HALFWORD;
-    //hdma_adc2.Init.Mode = DMA_CIRCULAR;
-    //hdma_adc2.Init.Priority = DMA_PRIORITY_HIGH;
-    //HAL_DMA_Init(&hdma_adc2);
+    hdma_adc2.Instance = DMA2_Stream1;
+    hdma_adc2.Init.Channel = DMA_CHANNEL_1;
+    hdma_adc2.Init.Direction = DMA_PERIPH_TO_MEMORY;
+    hdma_adc2.Init.PeriphInc = DMA_PINC_DISABLE;
+    hdma_adc2.Init.MemInc = DMA_MINC_ENABLE;
+    hdma_adc2.Init.PeriphDataAlignment = DMA_PDATAALIGN_HALFWORD;
+    hdma_adc2.Init.MemDataAlignment = DMA_MDATAALIGN_HALFWORD;
+    hdma_adc2.Init.Mode = DMA_CIRCULAR;
+    hdma_adc2.Init.Priority = DMA_PRIORITY_HIGH;
+    HAL_DMA_Init(&hdma_adc2);
 
     /* Associate ADC2 with DMA */
     __HAL_LINKDMA(&hadc2, DMA_Handle, hdma_adc2);

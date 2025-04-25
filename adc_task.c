@@ -15,11 +15,11 @@ void vADCTask(void *pvParameters)
     /* Start master ADC with DMA to capture all three ADC values */
     /* With timer triggering, we only need to start the ADC with DMA */
     /* The timer configured at 100Hz will trigger the ADC conversions */
-    HAL_ADC_Start_DMA(&hadc1, (uint32_t*)&adc_values[0], 2);
+    HAL_ADC_Start_DMA(&hadc1, (uint32_t*)&adc_values[0], 1);
+    HAL_ADC_Start_DMA(&hadc2, (uint32_t*)&adc_values[1], 1);
     HAL_ADC_Start_DMA(&hadc3, (uint32_t*)&adc_values[2], 1);
 
-    uint16_t local_adc_values[3];
-
+    uint16_t local_adc_values[3] = {99, 99, 99};
     for (;;)
     {
         /* Wait for notification from ADC conversion complete callback */
