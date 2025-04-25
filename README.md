@@ -1,6 +1,6 @@
 # STM32F446RE_ADC
 
-Multi-ADC simultaneous sampling implementation for STM32F744RE microcontroller using FreeRTOS.
+Multi-ADC simultaneous sampling implementation for STM32F446RE microcontroller using FreeRTOS.
 (c) 2025 Duffy Mazan (dmazan@mazan.org)
 
 ## Features
