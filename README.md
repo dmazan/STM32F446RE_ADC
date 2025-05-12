@@ -15,9 +15,9 @@ Multi-ADC simultaneous sampling implementation for STM32F446RE microcontroller u
 ## Hardware Configuration
 
 - ADC Inputs:
-  - ADC1: PA0
+  - ADC1: PC5
   - ADC2: PA1
-  - ADC3: PA2
+  - ADC3: PA0
 - DAC Output:
   - DAC Channel 2: PA5
 - UART:
