@@ -44,16 +44,18 @@ void vADCTask(void *pvParameters)
 
 void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc)
 {
-    /* For debugging - check ADC common data register contents */
+    /* For debugging - check ADC common data register contents
     volatile uint32_t cdr_value = ADC->CDR;
     volatile uint16_t adc1_value = ADC1->DR;
     volatile uint16_t adc2_value = ADC2->DR;
     volatile uint16_t adc3_value = ADC3->DR;
-    
-    /* The following are the actual buffer values we're getting from DMA */
+    */
+
+    /* The following are the actual buffer values we're getting from DMA
     volatile uint16_t dma_value1 = adc_values[0];
     volatile uint16_t dma_value2 = adc_values[1];
     volatile uint16_t dma_value3 = adc_values[2];
+    */
     
     BaseType_t xHigherPriorityTaskWoken = pdFALSE;
     
