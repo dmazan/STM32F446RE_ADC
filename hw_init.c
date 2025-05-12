@@ -82,18 +82,23 @@ static void ADC_Init(void)
     ADC_MultiModeTypeDef multimode = {0};
     ADC_ChannelConfTypeDef sConfig = {0};
 
-    /* Enable ADC clocks and GPIO clock */
+    /* Enable ADC clocks and GPIO clocks */
     __HAL_RCC_ADC1_CLK_ENABLE();
     __HAL_RCC_ADC2_CLK_ENABLE();
     __HAL_RCC_ADC3_CLK_ENABLE();
     __HAL_RCC_GPIOA_CLK_ENABLE();
+    __HAL_RCC_GPIOC_CLK_ENABLE();
 
     /* Configure GPIO pins for ADC */
     GPIO_InitTypeDef GPIO_InitStruct = {0};
-    GPIO_InitStruct.Pin = GPIO_PIN_0|GPIO_PIN_1|GPIO_PIN_2;  // PA0, PA1, PA2
+    // Configure PA0, PA1, PA2 as analog (for ADC2/ADC3)
+    GPIO_InitStruct.Pin = GPIO_PIN_0|GPIO_PIN_1|GPIO_PIN_2;
     GPIO_InitStruct.Mode = GPIO_MODE_ANALOG;
     GPIO_InitStruct.Pull = GPIO_NOPULL;
     HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+    // Configure PC5 as analog (for ADC1)
+    GPIO_InitStruct.Pin = GPIO_PIN_5;
+    HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
 
     /* Configure ADC1 */
     hadc1.Instance = ADC1;
@@ -127,15 +132,18 @@ static void ADC_Init(void)
     HAL_ADCEx_MultiModeConfigChannel(&hadc1, &multimode);
 
     /* Configure ADC Channels */
-    sConfig.Channel = ADC_CHANNEL_0;  // Using channel 0 for ADC1
+    // ADC1: channel 15 (PC5)
+    sConfig.Channel = ADC_CHANNEL_15;
     sConfig.Rank = 1;
     sConfig.SamplingTime = ADC_SAMPLETIME_84CYCLES;
     HAL_ADC_ConfigChannel(&hadc1, &sConfig);
 
-    sConfig.Channel = ADC_CHANNEL_1;  // Using channel 1 for ADC2
+    // ADC2: channel 1 (PA1) (unchanged)
+    sConfig.Channel = ADC_CHANNEL_1;
     HAL_ADC_ConfigChannel(&hadc2, &sConfig);
 
-    sConfig.Channel = ADC_CHANNEL_2;  // Using channel 2 for ADC3
+    // ADC3: channel 0 (PA0)
+    sConfig.Channel = ADC_CHANNEL_0;
     HAL_ADC_ConfigChannel(&hadc3, &sConfig);
 }
 
